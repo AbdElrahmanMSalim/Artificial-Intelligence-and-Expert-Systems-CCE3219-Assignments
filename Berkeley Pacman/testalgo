@@ -1,0 +1,23 @@
+
+if fringe is empty:
+    return 0
+else if is goal
+    ret 1
+else:
+    if sucessor a = 1
+        return a
+    else if successor b = 1
+        return b
+    else
+        return 0
+
+
+while fringe
+    s=fringe.pop()
+    if s is goal:
+        return s
+    else:
+        if s not explored:
+            expand in fringe
+            put in explored
+
